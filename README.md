@@ -71,6 +71,7 @@
 * Debe verse asi
 
 <img src="Header.png" alt="">
+
 ---
 
 * Vamos a configurar el color delos contenedores
@@ -78,7 +79,7 @@
   
 <img src="sele.png" alt="">
 
-<img src="seleccionar.png" alt="">
+<img src="select.png" alt="">
 
 <img src="sele_color.png" alt="">
 
@@ -132,10 +133,9 @@ es lo de la lista de empleados por el otro nombre de la plantilla
 
 <img src="personas.png" alt="">
 
-* Vamos a configurar el color del contenedor
-* Lo seleccionamos y en propiedades elegimos color
-<img src=".png" alt="">
+
 ---
+
 4. luego se repite los mismos pasos para la configfuracion de aspecto y diseño para los botones de Evaluaciones, Eventos-Calendario y Candidatos
 
 * en la configuracion para poder desplasarnos entre plantillas se cambia por el nombre de la plantilla que queremos ir
@@ -167,3 +167,56 @@ es lo de la "Canditos" por el otro nombre de la plantilla
 * Asi se ve La Plantilla de Bienvenidad
 
 <img src="menu.png" alt="">
+
+---
+
+### Listas de Empleados
+
+1. creamos una nueva plantilla
+
+<img src="plan.png" alt="">
+
+2. le cambiamos el nombre a la pantalla
+   
+<img src="pantalla1.png" alt="">
+
+3. seleccionamos y le cambiamos el color del contenedor
+
+<img src="select.png" alt="">
+
+<img src="sele_color.png" alt="">
+
+4. Vamos a configurar la tabla para que nos muestre Los Datos de Tabla1
+   
+* Seleccionamos la tabla y le damos a  Datos
+* luego seleccionamos Tabla1 y le damos a Reemplazar columnas
+  
+<img src="Tabla1.png" alt="">
+
+* ### Si nos aparece esto debemos cambiar las tablas que tiene predetermidas por las nuestra (Tabla1)
+
+<img src="amarillo.png" alt="">
+* Asi
+```
+Remove(
+    Table1;
+    selectedRecord
+);;
+If(
+    IsEmpty(
+        Errors(
+            Table1;
+            selectedRecord
+        )
+    );
+    UpdateContext(
+        {
+            CurrentItem: First(Table1);
+            isItemSelected: false;
+            newMode: false;
+            deleteMode: false
+        }
+    )
+);;
+
+```
