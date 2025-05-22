@@ -122,6 +122,9 @@ es lo de la lista de empleados por el otro nombre de la plantilla
 
 <img src="personas.png" alt="">
 
+* Vamos a configurar el color del contenedor
+* Lo seleccionamos y en propiedades elegimos color
+<img src=".png" alt="">
 ---
 4. luego se repite los mismos pasos para la configfuracion de aspecto y diseño para los botones de Evaluaciones, Eventos-Calendario y Candidatos
 
@@ -153,4 +156,4 @@ es lo de la "Canditos" por el otro nombre de la plantilla
 
 * Asi se ve La Plantilla de Bienvenidad
 
-<img src="Menu.png" alt="">
+<img src="menu.png" alt="">
