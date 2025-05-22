@@ -112,5 +112,5 @@ Navigate('Listas de empleados'; ScreenTransition.Fade) // lo que se puede modifi
 es lo de la lista de empleados por el otro nombre de la plantilla
 ```
 * beberia verse asi
-  
- 
+
+<img src="personas.png" alt="">
