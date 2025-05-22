@@ -74,13 +74,17 @@
 
 ---
 
-3. luego seleccionamos la imagen de los conetenedores para darle estilo
+3. vamos a crear un boton para poder dezplarnos entre plantillas
+
+* Crearemos el boton de los empleados
+ 
+* luego seleccionamos la imagen de los conetenedores para darle estilo 
 
 <img src="im.png" alt="">
 
 * le damos CONTROL X
 
-<img src="i.png" alt="">
+<img src="mas.png" alt="">
 
 * luego le damos al + y busacos un icono de personas
 * vamos darle el tamaño y configuarmos asi
@@ -110,11 +114,43 @@ es lo de la lista de empleados por el otro nombre de la plantilla
 * luego vamos a configurar en Avanzado, OnSelect y colocamos esto
 
 ```
-Navigate('Listas de empleados'; ScreenTransition.Fade) // lo que se puede modificar para las demas botones
+Navigate('Listas de empleados'; ScreenTransition.Fade) // lo que se puede modificar para los demas botones
 es lo de la lista de empleados por el otro nombre de la plantilla
 ```
+
 * Deberia verse asi
 
 <img src="personas.png" alt="">
 
 ---
+4. luego se repite los mismos pasos para la configfuracion de aspecto y diseño para los botones de Evaluaciones, Eventos-Calendario y Candidatos
+
+* en la configuracion para poder desplasarnos entre plantillas se cambia por el nombre de la plantilla que queremos ir
+
+* Evaluaciones
+* vamos a configurar en Avanzado, OnSelect y colocamos esto
+
+```
+Navigate(Evaluaciones; ScreenTransition.Fade) // lo que se puede modificar para los demas botones
+es lo de la "Evaluaciones" por el otro nombre de la plantilla
+```
+
+* Eventos-Calendario
+* vamos a configurar en Avanzado, OnSelect y colocamos esto
+
+```
+Navigate(Eventos; ScreenTransition.Fade) // lo que se puede modificar para los demas botones
+es lo de la "Eventos" por el otro nombre de la plantilla
+```
+
+* Candidatos
+* vamos a configurar en Avanzado, OnSelect y colocamos esto
+
+```
+Navigate(Candidatos; ScreenTransition.Fade) // lo que se puede modificar para los demas botones
+es lo de la "Canditos" por el otro nombre de la plantilla
+```
+
+* Asi se ve La Plantilla de Bienvenidad
+
+<img src=".png" alt="">
