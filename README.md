@@ -68,4 +68,49 @@
   
 <img src="config.png" alt="">
 
+* Debe verse asi
+  
 <img src="Header.png" alt="">
+
+3. luego seleccionamos la imagen de los conetenedores para darle estilo
+
+<img src="im.png" alt="">
+
+* le damos CONTROL X
+
+<img src="i.png" alt="">
+
+* luego le damos al + y busacos un icono de personas
+* vamos darle el tamaño y configuarmos asi
+
+<img src="Tamaño.png" alt="">
+
+* vamos darle el color
+  
+  <img src="col.png" alt=""> 
+  
+* luego vamos a configurar en Avanzado, OnSelect y colocamos esto
+
+```
+Navigate('Listas de empleados'; ScreenTransition.Fade) // lo que se puede modificar para las demas botones
+es lo de la lista de empleados por el otro nombre de la plantilla
+```
+--- 
+* ### vamos configurar el  boton en el elemento destacado
+
+<img src="abajo.png" alt="">
+
+* le cambiamos el texto y lo dejamos asi en las seccion general
+
+  <img src="boton.png" alt="">
+  
+* luego solo cambiamos en tamaño de la fuente por 25 y el espersor de la fuente por negrita
+* luego vamos a configurar en Avanzado, OnSelect y colocamos esto
+
+```
+Navigate('Listas de empleados'; ScreenTransition.Fade) // lo que se puede modificar para las demas botones
+es lo de la lista de empleados por el otro nombre de la plantilla
+```
+* beberia verse asi
+  
+ 
