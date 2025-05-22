@@ -366,4 +366,4 @@ If(
     )
 )
 ```
-<img src="pa_bajas" alt="">
+<img src="pa_bajas.png" alt="">
