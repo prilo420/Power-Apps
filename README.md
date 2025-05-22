@@ -75,7 +75,7 @@
 * Vamos a configurar el color del contenedor
 * Lo seleccionamos y en propiedades elegimos el color
 
-<img src="personas.png" alt="">
+<img src="sele_color.png" alt="">
 
 ---
 
