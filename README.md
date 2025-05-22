@@ -285,4 +285,85 @@ es lo de la "Bajas" por el otro nombre de la plantilla
 
 ### Evaluaciones 
 * vamos a utilizar tambien la misma plantilla y se repìte todo es proceso del aspecto de la plantilla 
-*se cambia cambia los origenes de los datos en las tablas y  en los formularios, tambien los campos de los datos, el nombre de la plantilla para poder utilizar los botones de desplazamiento.
+* se cambia cambia los origenes de los datos en las tablas y  en los formularios, tambien los campos de los datos, el nombre de la plantilla para poder utilizar los botones de desplazamiento.
+
+---
+
+### Candiadatos
+* vamos a utilizar tambien la misma plantilla y se repìte todo es proceso del aspecto de la plantilla 
+* se cambia cambia los origenes de los datos en las tablas y  en los formularios, tambien los campos de los datos, el nombre de la plantilla para poder utilizar los botones de desplazamiento.
+
+---
+
+### Eventos
+
+* vamos a utilizar tambien la misma plantilla y se repìte todo es proceso del aspecto de la plantilla-
+* se cambia cambia los origenes de los datos en las tablas y  en los formularios, tambien los campos de los datos, el nombre de la plantilla para poder utilizar los botones de desplazamiento.
+* se añade un Selector de Fecha, se quita este buscador y lo insertas dandole estas medidas:374 de ancho.
+<img src="buscador1.png" alt="">
+* De verse asi
+<img src="fecha.png" alt="">
+
+---
+
+### Bajas
+
+* Vamos a utilizar una pantalla en blanco, un encabezado, le cambiamos el nombre, botones para la galeria: SI, NO, boton para desplazarme a la plantilla empleado y una galeria
+* Creamos la plantalla en blanco y le ponemos  el de nombre Bajas
+* Pegamos el encabezado y acomodamos
+* Insertamos un boton  y le cambiamos el nombre por empleados y vamos a configurar en Avanzado, OnSelect y colocamos esto
+
+```
+Navigate(Bajas; ScreenTransition.Fade) // lo que se puede modificar para los demas botones
+es lo de la "Bajas" por el otro nombre de la plantilla
+```
+
+* Insertamos una galeria, le damos en datos para poder tener la tabla6 y que se vean los campos de la tabla
+* Insertamos los botones de SI y NO, configuraramos en Avanzado, OnSelect y colocamos esto
+
+*SI
+
+```
+If( 
+    !!IsBlank(Gallery4.Selected);
+    
+    Patch(
+        Tabla1;
+        Gallery4.Selected;
+        {EnPlantilla: "SI"} 
+    );
+    Patch(
+        Tabla2;
+        Defaults(Tabla2);
+        {
+            ID_Empleado:Gallery4.Selected.ID_EMPLEADO;
+            Fecha_de_evaluacion: Today();
+            Tipo:"Evaluacion de Entrada" 
+        }
+    )
+)
+ 
+```
+
+*NO
+```
+If( 
+    !!IsBlank(Gallery4.Selected);
+    
+    Patch(
+        Tabla1;
+        Gallery4.Selected;
+        {EnPlantilla: "NO"} 
+    );
+    Patch(
+        Tabla2_1;
+        Defaults(Tabla2_1);
+        {
+            ID_Empleado:Gallery4.Selected.ID_EMPLEADO;
+            Fecha_de_evaluacion: Today();
+            Tipo:"Evaluacion de salida" 
+        }
+    )
+)
+```
+<img src="pa_bajas" alt="">
