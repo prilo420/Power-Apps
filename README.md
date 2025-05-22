@@ -176,9 +176,12 @@ es lo de la "Canditos" por el otro nombre de la plantilla
 
 <img src="Plan.png" alt="">
 
-2. le cambiamos el nombre a la pantalla
-   
+2. le cambiamos el nombre a la pantalla y configuramos el encabezado   
 <img src="Pantalla1.png" alt="">
+
+* selecionamos el encabezado y lo configuramos de esta manera, tambien en rellenar seleccinamos Rojo oscuro
+
+<img src="cabeza_emple.png" alt="">
 
 3. seleccionamos y le cambiamos el color del contenedor
 
@@ -259,3 +262,27 @@ If(
 Estas seguro de borrar este empleado?
 ```
 * El tamaño de la fuente es:22, el espezor de la fuente es :Borrar-negrita, Cancelar_seminegrita, la fuente por Open Sans
+
+7. vamos a crear un boton que nos lleve al menu de inicio
+   
+* insertamos un icono de inicio, ponemos de rellenar blanco, de tamaño 52 de alto, de ancho 64 y ajustamos en la parte superior del encabezado
+* insertamos un texto le ponemos inicio, sin rellenar, el tamaño de la fuente 24 y ajustamos al pie del icono de inicio
+
+<img src="Inicio.png" alt="">
+
+8.creamos un boton de baja para los empleados(esto no debe ir en las demas platillas)
+*insertamos un boton y lo configuramos asi 
+
+<img src="baja.png" alt="">
+
+* vamos a configurar en Avanzado, OnSelect y colocamos esto
+
+```
+Navigate(Bajas; ScreenTransition.Fade) // lo que se puede modificar para los demas botones
+es lo de la "Bajas" por el otro nombre de la plantilla
+```
+---
+
+### Evaluaciones 
+* vamos a utilizar tambien la misma plantilla y se repìte todo es proceso del aspecto de la plantilla 
+*se cambia cambia los origenes de los datos en las tablas y  en los formularios, tambien los campos de los datos, el nombre de la plantilla para poder utilizar los botones de desplazamiento.
