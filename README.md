@@ -153,4 +153,4 @@ es lo de la "Canditos" por el otro nombre de la plantilla
 
 * Asi se ve La Plantilla de Bienvenidad
 
-<img src=".png" alt="">
+<img src="Menu.png" alt="">
