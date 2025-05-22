@@ -72,6 +72,11 @@
 
 <img src="Header.png" alt="">
 
+* Vamos a configurar el color del contenedor
+* Lo seleccionamos y en propiedades elegimos el color
+
+<img src="personas.png" alt="">
+
 ---
 
 3. vamos a crear un boton para poder dezplarnos entre plantillas
