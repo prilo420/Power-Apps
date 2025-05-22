@@ -69,8 +69,10 @@
 <img src="config.png" alt="">
 
 * Debe verse asi
-  
+
 <img src="Header.png" alt="">
+
+---
 
 3. luego seleccionamos la imagen de los conetenedores para darle estilo
 
@@ -111,6 +113,8 @@ es lo de la lista de empleados por el otro nombre de la plantilla
 Navigate('Listas de empleados'; ScreenTransition.Fade) // lo que se puede modificar para las demas botones
 es lo de la lista de empleados por el otro nombre de la plantilla
 ```
-* beberia verse asi
+* Deberia verse asi
 
 <img src="personas.png" alt="">
+
+---
