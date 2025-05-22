@@ -174,11 +174,11 @@ es lo de la "Canditos" por el otro nombre de la plantilla
 
 1. creamos una nueva plantilla
 
-<img src="plan.png" alt="">
+<img src="Plan.png" alt="">
 
 2. le cambiamos el nombre a la pantalla
    
-<img src="pantalla1.png" alt="">
+<img src="Pantalla1.png" alt="">
 
 3. seleccionamos y le cambiamos el color del contenedor
 
@@ -187,6 +187,12 @@ es lo de la "Canditos" por el otro nombre de la plantilla
 <img src="sele_color.png" alt="">
 
 4. Vamos a configurar la tabla para que nos muestre Los Datos de Tabla1
+
+* Vamos a quitar esto
+  
+<img src="buscador1.png" alt="">
+
+* CONTROL + X DOS veces para quitar tambien el contenedor 
    
 * Seleccionamos la tabla y le damos a  Datos
 * luego seleccionamos Tabla1 y le damos a Reemplazar columnas
@@ -197,6 +203,7 @@ es lo de la "Canditos" por el otro nombre de la plantilla
 
 <img src="amarillo.png" alt="">
 * Asi
+
 ```
 Remove(
     Table1;
@@ -218,5 +225,37 @@ If(
         }
     )
 );;
+```
+5. vamos a configuar el formulario para que nos muestres los campos y podamos crear, editar y eliminar un usuario
+
+* Seleccionamos el formulario y le damos a  Datos
+* luego seleccionamos Tabla1 y le damos a Reemplazar columnas
+  
+<img src="formulario1.png" alt="">
+
+* Agregamos todos los campos en el formulario
+  
+  <img src="campo1.png" alt="">
+
+6. Vamos a configurar los Botones
+
+* vamos a cambiarle el texto de estos botones: Nuevo, Editar, Borrar, Cancelar y Aceptar
+  
+<img src="Boton1.png" alt="">
+
+<img src="Boton25.png" alt="">
+
+* Cambiamos el texto en propiedades
+
+<img src="Boton3.png" alt="">
+
+* vamos a configurar un texto y estos botones: Borrar y Cancelar
+
+<img src="boton4.png" alt="">
+
+* El tamaño de la Fuente se cambia:28, el color de Fuente del texto se cambia por color Rojo oscuro y el texto por:
 
 ```
+Estas seguro de borrar este empleado?
+```
+* El tamaño de la fuente es:22, el espezor de la fuente es :Borrar-negrita, Cancelar_seminegrita, la fuente por Open Sans
