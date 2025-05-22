@@ -71,13 +71,14 @@
 * Debe verse asi
 
 <img src="Header.png" alt="">
+---
 
 * Vamos a configurar el color delos contenedores
 * Los seleccionamos y en propiedades elegimos el color
   
 <img src="sele.png" alt="">
 
-<img src="selecionar.png" alt="">
+<img src="seleccionar.png" alt="">
 
 <img src="sele_color.png" alt="">
 
