@@ -368,3 +368,8 @@ If(
 )
 ```
 <img src="pa_bajas.png" alt="">
+
+## Enlace 
+```
+https://apps.powerapps.com/play/e/39d2c680-1735-eda1-a090-23a9c121a55c/a/cca0c053-3ed4-400c-8d67-47fe96164f62?tenantId=669222ee-d5e5-4539-987e-a3015ab6df31&hint=0cff99f6-5c63-43fc-b6aa-1b9e815b7803&sourcetime=1748601575964
+```
